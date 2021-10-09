@@ -3,7 +3,17 @@
   $name = "Marv";
   $age = 33;
 
-  echo mb_strtolower($name);
+  echo mb_strtolower($name)."<br>";
+
+  //arrays
+  $people = array('ken', 'chun-li');
+  $ages = [3,6,9,12];
+
+  array_push($people,'chima');
+  print_r($people);
+
+
+
  ?>
 
  <!DOCTYPE html>
